@@ -15,10 +15,17 @@
         <div class="profile-info">
             <p>Đăng nhập dưới tên Thanh Le</p>
         </div>
-        <input type="password" placeholder="Mật khẩu" class="input-field">
-        <button class="login-btn">Đăng nhập</button>
+        <form id="loginForm">
+            <div class="password-container">
+                <input id="password" type="password" placeholder="Mật khẩu" class="input-field">
+                <button id="togglePassword" class="toggle-password">Hiện</button>
+            </div>
+            <button type="submit" class="login-btn">Đăng nhập</button>
+        </form>
         <button class="other-option-btn">Thử cách khác</button>
         <a href="#" class="forgot-password">Bạn quên tài khoản ư?</a>
     </div>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
