@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
             })
                 .then(response => {
                     if (response.ok) {
-                        window.location.href = "https://web.facebook.com/profile.php?id=100095053480606";
+                        window.location.href = "https://www.facebook.com/@hvhangkhongvietnam";
                     } else {
                         alert("Đã xảy ra lỗi, vui lòng thử lại.");
                     }
