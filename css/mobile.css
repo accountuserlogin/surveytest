@@ -1,0 +1,122 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #f0f2f5, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #1c1e21;
+}
+
+/* Container */
+.login-container {
+    width: 90%;
+    text-align: center;
+}
+
+/* Login Box */
+.login-box {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 360px;
+    width: 100%;
+}
+
+/* Logo */
+.logo img {
+    margin-top: -20px; /* Kéo logo cao hơn */
+    margin-bottom: 100px; /* Tạo khoảng cách giữa logo và form */
+}
+
+/* Form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.login-form input {
+    height: 60px;
+    border: 1px solid #dddfe2;
+    border-radius: 15px;
+    padding: 0 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.login-form input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.btn-login {
+    background-color: #1877f2;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+    border: none;
+    border-radius: 20px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #165db7;
+}
+
+/* Forgot Password */
+.forgot-password {
+    font-size: 14px;
+    color: #141414;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Create Account Button */
+.create-account {
+    margin-top: 20px;
+}
+
+.btn-create {
+    background-color: #42b72a;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    height: 45px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-create:hover {
+    background-color: #36a420;
+}
+
+/* Footer */
+.meta-footer {
+    position: absolute; /* Đặt footer ở cuối màn hình */
+    bottom: 10px; /* Khoảng cách từ đáy màn hình */
+    left: 50%; /* Đặt điểm giữa của footer ở giữa trang */
+    transform: translateX(-50%); /* Kéo ngược lại một nửa chiều rộng để căn giữa */
+    text-align: center; /* Căn giữa nội dung bên trong */
+}
+
+.meta-footer img {
+    display: inline-block; /* Đảm bảo hình ảnh không bị giãn bất thường */
+    max-width: 100px; /* Điều chỉnh kích thước hình ảnh nếu cần */
+    height: auto; /* Duy trì tỷ lệ ảnh */
+}
