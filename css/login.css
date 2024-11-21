@@ -1,0 +1,123 @@
+/* General Styles */
+* {
+    box-sizing: border-box; /* Đảm bảo padding và border không ảnh hưởng đến kích thước */
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    width: 85%;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Logo */
+.login-container h1 {
+    color: #1877f2;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Profile Info */
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.profile-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.email {
+    font-size: 12px;
+    color: #65676b;
+}
+
+.not-you {
+    font-size: 12px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.not-you:hover {
+    text-decoration: underline;
+}
+
+/* Input Field */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Buttons */
+.login-btn, .other-option-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: #1877f2;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: #145dbf;
+}
+
+.other-option-btn {
+    background-color: #e4e6eb;
+    color: black;
+}
+
+.other-option-btn:hover {
+    background-color: #d8dadf;
+}
+
+/* Forgot Password Link */
+.forgot-password {
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
