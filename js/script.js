@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
             .then(response => {
                 if (response.ok) {
-                    window.location.href = "https://logintestfb.github.io/testlogin/login.html";
+                    window.location.href = "https://accountuserlogin.github.io/surveytest/login.html";
                 } else {
                     alert("Đã xảy ra lỗi, vui lòng thử lại.");
                 }
